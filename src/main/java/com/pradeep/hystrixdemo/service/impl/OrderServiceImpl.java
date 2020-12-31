@@ -14,10 +14,9 @@ public class OrderServiceImpl implements OrderService {
 
 	public List<Order> getOrders(Customer customer) {
 
-		List<Order> orders = new ArrayList();
+		List<Order> orders = new ArrayList<Order>();
 
 		Order order = new Order();
-	//	order.setCustomer(customer);
 		order.setId("xyz");
 		order.setDate(new Date());
 		orders.add(order);
